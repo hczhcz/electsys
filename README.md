@@ -1,4 +1,11 @@
-electsys
+Electsys++ for Firefox
+========
+
+Electsys 优化插件的 Firefox 封装。
+
+基于[https://github.com/laohyx/electsys](https://github.com/laohyx/electsys)。
+
+Electsys++
 ========
 
 Electsys++ SJTU electsys optimizer.
