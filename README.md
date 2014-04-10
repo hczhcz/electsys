@@ -5,6 +5,8 @@ Electsys 优化插件的 Firefox 封装。
 
 基于[https://github.com/laohyx/electsys](https://github.com/laohyx/electsys)。
 
+在firefox中打开`electsys4fx.xpi`即可安装。
+
 Electsys++
 ========
 
