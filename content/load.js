@@ -1,13 +1,3 @@
-jQuery.get(
-    chrome.extension.getURL("manifest.json"),
-    function(data){
-        localStorage['extension_version'] = data['version'];
-    },
-    "json"
-);
-
-
-
 jQuery.extend(jQuery, {
     inJSON: function(json, key){
         var hit, hits = [];
@@ -114,7 +104,7 @@ function main()
 
 
 
-main(); 
+main();
 
 
 

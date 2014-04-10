@@ -32,11 +32,10 @@ function optimize_sdtleft()
     score_line.after(jQuery(append_string));
         
     //分享到人人
-	var last_line= jQuery("td[colspan=2]").slice(1,2).parent();
-	var line_string = '<tr><td colspan="2"><img src="../imgs/leftline.gif" width="122" height="1"></td></tr>';
-	var share_link = '<tr onmouseover="sbar(this)" onmouseout="cbar(this)"><td><img src="../imgs/icon.menu.gif" width="25" height="15"></td><td class="menu"><div style="position:relative;width:110px;"><a href="http://electsys.net/" target="_blank">我爱选课</a></div></td></tr>';
-	last_line.after(jQuery(share_link + line_string));
-	
+    var last_line= jQuery("td[colspan=2]").slice(1,2).parent();
+    var line_string = '<tr><td colspan="2"><img src="../imgs/leftline.gif" width="122" height="1"></td></tr>';
+    var share_link = '<tr onmouseover="sbar(this)" onmouseout="cbar(this)"><td><img src="../imgs/icon.menu.gif" width="25" height="15"></td><td class="menu"><div style="position:relative;width:110px;"><a href="http://electsys.net/" target="_blank">我爱选课</a></div></td></tr>';
+    last_line.after(jQuery(share_link + line_string));
     
     /*
     //可展开、折叠
@@ -88,7 +87,7 @@ function optimize_flattop(){
     var optimize_flattop_fixed_div = jQuery('<div id="optimize_flattop_fixed_div" style="color:white;font-size:12px;margin:0px;width:100px;height:25px;z-index: 999;position:fixed;line-height:25px;top:'+String(div_pos)+'px;right:0px;text-align:center;background-color:#ffae00;cursor:pointer;">隐藏/显示推荐</div>');
     jQuery("html").append(optimize_flattop_fixed_div);
 
-    var optimize_bottom_fixed_div = jQuery('<div id="optimize_bottom_fixed_div" style="color:black;font-size:12px;margin:0px;z-index: 999;position:fixed;bottom:0px;right:20px;a:visited">Optimized by electsys++ ' + localStorage['extension_version'] + ' - <a href="https://github.com/laohyx/electsys" target="_blank">electsys++ Project</a></div>');
+    var optimize_bottom_fixed_div = jQuery('<div id="optimize_bottom_fixed_div" style="color:black;font-size:12px;margin:0px;z-index: 999;position:fixed;bottom:0px;right:20px;a:visited">Optimized by electsys++ - <a href="https://github.com/laohyx/electsys" target="_blank">electsys++ Project</a> - Firefox version - <a href="https://github.com/hczhcz/electsys" target="_blank">electsys++ Project</a></div>');
     jQuery("html").append(optimize_bottom_fixed_div);
     jQuery("#optimize_bottom_fixed_div").click(function(){
         jQuery(this).hide();

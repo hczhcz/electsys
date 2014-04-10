@@ -91,7 +91,7 @@ function optimize_elect()
 */
 	//插入小课表
 	prepend_smalltable();
-	title[0].innerHTML += " Electsys++  " + localStorage['extension_version'];
+	title[0].innerHTML += " Electsys++";
 	
 	type = "tongshi";
 	
@@ -168,7 +168,7 @@ function init_query_list(){
 function prepend_smalltable()
 {
     
-	st_fixed_div = jQuery('  <div id="st_fixed_div" style="margin:0px;width:60%;z-index: 999;position: fixed;top:5px;right:0px;border:1px solid gray;text-align: center;"><div class="smalltable_title" style="height:25px;font-size: 12px;line-height:25px;cursor:pointer;background-image:url(http://electsys.sjtu.edu.cn/edu/imgs/subbg2.gif);">课程表(展开/收起)</div><div id="smalltable_handle" style="cursor:move;"><div id="smalltable_container"><span id="LessonTbl1_spanContent_small"></span></div><div class="smalltable_under" style="height:25px;font-size: 12px;line-height:25px;background:#B5C7DE;">electsys++(' + localStorage['extension_version'] + ') by laohyx(拖动)</div></div></div>');
+	st_fixed_div = jQuery('  <div id="st_fixed_div" style="margin:0px;width:60%;z-index: 999;position: fixed;top:5px;right:0px;border:1px solid gray;text-align: center;"><div class="smalltable_title" style="height:25px;font-size: 12px;line-height:25px;cursor:pointer;background-image:url(http://electsys.sjtu.edu.cn/edu/imgs/subbg2.gif);">课程表(展开/收起)</div><div id="smalltable_handle" style="cursor:move;"><div id="smalltable_container"><span id="LessonTbl1_spanContent_small"></span></div><div class="smalltable_under" style="height:25px;font-size: 12px;line-height:25px;background:#B5C7DE;">electsys++ by laohyx(拖动)</div></div></div>');
 	jQuery("body").prepend(st_fixed_div);
 	jQuery("#st_fixed_div").draggable({handle:"#smalltable_handle"});
 	if(inUrl("/edu/student/elect/ShortSession.aspx"))
