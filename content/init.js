@@ -45,7 +45,7 @@ window.addEventListener("load", function load(event){
     window.removeEventListener("load", load, false);
 
     var appcontent = document.getElementById("appcontent");
-    if(appcontent){
+    if (appcontent) {
         appcontent.addEventListener("DOMContentLoaded", electsysinit, true);
     }
 }, false);
