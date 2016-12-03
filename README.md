@@ -7,8 +7,6 @@ Electsys 优化插件的 Firefox 封装。
 
 在firefox中打开`electsys4fx.xpi`即可安装。
 
-注意：如果 Firefox 提示“附加组件未验证”，可以通过`xpinstall.signatures.required`选项暂时忽略。之后如果同学们确有需要，我们会考虑申请 Mozilla 的验证。
-
 Electsys++
 ========
 
