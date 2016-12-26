@@ -5,10 +5,13 @@ Electsys 优化插件的 Firefox 封装。
 
 基于 [https://github.com/laohyx/electsys](https://github.com/laohyx/electsys)。
 
-在 Firefox 中打开`electsys4fx.xpi`即可安装。
+直接安装
+--------
 
-使用 [Chrome Store Foxified](https://addons.mozilla.org/en-US/firefox/addon/chrome-store-foxified/) 从 Chrome 应用商店安装
-========
+[下载 electsys4fx.xpi](https://github.com/hczhcz/electsys/blob/master/electsys4fx.xpi?raw=true)（或使用 Git 克隆本项目），在 Firefox 中打开该文件即可安装。
+
+在 Firefox 中安装 Chrome 版扩展
+--------
 
 现在 Firefox 能够部分地兼容 Chrome 的扩展，可以借助 [Chrome Store Foxified](https://addons.mozilla.org/en-US/firefox/addon/chrome-store-foxified/) 直接从 Chrome 应用商店直接安装 Chrome 的扩展。方法如下：
 
